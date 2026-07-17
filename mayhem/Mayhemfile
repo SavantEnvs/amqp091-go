@@ -1,0 +1,5 @@
+project: savantenvs/amqp091-go
+target: fuzz-amqp091-go
+cmds:
+  - cmd: /mayhem/fuzz-amqp091-go
+    libfuzzer: true
