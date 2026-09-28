@@ -1,0 +1,6 @@
+project: savantenvs/amqp091-go
+target: fuzz-amqp091-go-buggy-mhh-run-2
+# origin: https://app.mayhem.security/mayhemheroes/amqp091-go/fuzz-amqp091-go/2
+cmds:
+  - cmd: /mayhem/fuzz-amqp091-go
+    libfuzzer: true
