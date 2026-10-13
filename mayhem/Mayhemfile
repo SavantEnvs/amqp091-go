@@ -1,0 +1,5 @@
+project: savantenvs/amqp091-go
+target: fuzz-shortstr-mined-536311d
+cmds:
+  - cmd: /mayhem/fuzz-shortstr
+    libfuzzer: true
