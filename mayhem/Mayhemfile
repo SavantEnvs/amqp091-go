@@ -1,0 +1,6 @@
+# seed-from: https://app.mayhem.security/savantenvs/amqp091-go/fuzz-amqp091-go
+project: savantenvs/amqp091-go
+target: fuzz-amqp091-go-mined-c412303
+cmds:
+  - cmd: /mayhem/fuzz-amqp091-go
+    libfuzzer: true
